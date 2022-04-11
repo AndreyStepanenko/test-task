@@ -5,10 +5,11 @@ There are no detailed requirements like amount of pixels for margins, so we don'
 Editor form - most of the fields are just plain text but city field should have autocomplete (there's endpoint for cities).
 
 Format of data and field names are described in Server API below.
-You pick libs and tools for this task, but you'll need to defend you choice.
+You pick libs and tools for this task, but you'll need to defend you choice. (only React is required)
 
 ### Requirements
 1. Node
+2. React
 
 ### Start Server
 There's simple express server, which holds data in memory, so you could start fresh at any point of time.
